@@ -13,10 +13,10 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 
 # variables
 API_ID = 
-API_HASH = 
-BOT_TOKEN = 
-SESSION = 
-FORCESUB = 
+API_HASH = ""
+BOT_TOKEN = ""
+SESSION = ""
+FORCESUB = ""
 AUTH = 
 
 bot = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 
